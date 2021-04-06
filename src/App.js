@@ -36,6 +36,7 @@ function App() {
               <option value="resposta4">Resposta 4</option>
             </select>          
           </div>
+          <button className="input-button-mobile">Botão para detalhes....</button>
           <button className="input-button"><img src={lupa}  alt="wpp" /></button>
         </form>
       </section>

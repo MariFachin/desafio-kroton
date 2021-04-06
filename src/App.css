@@ -114,6 +114,37 @@
   width: 265px;
 }
 
+@media (max-width: 600px)
+{
+  .content-banner1{
+    display: flex;
+    margin: 24px 22px;
+    flex-direction: column;
+  }
+
+  .content-banner1 section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 16px;
+    padding: 30px;
+  }
+
+  .banner1-text{
+    margin-top: 10px;
+    text-align: center;
+    padding-left: 0px;
+    width: 250px;
+  }
+  
+  .banner1-text button{
+    margin-top: 10px;
+    float: center;  
+    padding-left: 0px ;
+    width: 265px;
+  }
+}
+
 /* imputs */
 
 .forms-content{
@@ -169,6 +200,40 @@
   width: 20%;
 }
 
+.input-button-mobile{
+  display: none;
+}
+
+@media (max-width: 600px)
+{
+  .forms-content{
+    margin: 34px 38px 60px 38px;
+  
+  }
+
+  .forms-content form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .all-inputs {
+    width: 100%;
+  }
+
+  .input-button-mobile{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: -50px;
+  }
+
+  .input-button{
+    display: none;
+  }
+}
+
 /* components - banner 4 */
 
 .banner4{
@@ -208,4 +273,11 @@
   box-sizing: border-box;
   border-radius: 4px;
   width: 100%;
+}
+
+@media (max-width: 600px)
+{
+  .all-banner4{
+    flex-direction: column;
+  }
 }

@@ -12,8 +12,8 @@ function Banner1() {
             <div className="banner1-text">
               <h2>Titulo 1</h2>
               <p>Content..  ... content. ... content.. .. content.. .. content .. 
-              content....content....content....content....content....
-              content....content....</p>
+              content.... content.... content.... content.... content....
+              content.... content....</p>
               <button>Botão para detalhes....</button>
             </div>
         </section>
@@ -22,8 +22,8 @@ function Banner1() {
             <div className="banner1-text">
               <h2>Titulo 1</h2>
               <p>Content..  ... content. ... content.. .. content.. .. content .. 
-              content....content....content....content....content....
-              content....content....</p>
+              content.... content.... content.... content.... content....
+              content.... content....</p>
               <button>Botão para detalhes....</button>
             </div>
         </section>
